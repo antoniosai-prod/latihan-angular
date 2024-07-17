@@ -1,0 +1,12 @@
+<div *ngIf="postData">
+  ID: {{ postData.id }}<br>
+  title: {{ postData.title }}<br>
+  body: {{ postData.body }} <br>
+  userId: {{ postData.userId }}
+  <hr>
+
+  <div *ngIf="userData">
+    Nama User: {{ userData.name }}<br>
+    id User: {{ userData.id }}<br>
+  </div>
+</div>
